@@ -29,7 +29,8 @@ public final class Node {
         if (this == obj) {
             return true;
         }
-        else {
+
+        else {   //проверка на принадлежность к классу Node
             Node n1 = null;
             try {
                 n1 = (Node) obj;
@@ -37,10 +38,11 @@ public final class Node {
                 System.out.println("Объект не принадлежит классу Node");
                 return false;
             }
-            if (n1.getChild() != null && this.getChild() != null) {
+
+            if (n1.getChild() != null && this.getChild() != null) {         //проверка на null и идентичность
                 return (this.getCount() == n1.getCount()) && (this.getName().equals(n1.getName())) && (this.getChild().equals(n1.getChild()));
             } else {
-                if (n1.getChild() == null && this.getChild() == null) {
+                if (n1.getChild() == null && this.getChild() == null) {     //проверка на идентичность при child==null
                     return (this.getCount() == n1.getCount()) && (this.getName().equals(n1.getName()));
                 } else {
                     return false;
