@@ -1,7 +1,7 @@
-package LyambdaKot;
+package LambdaKot;
 
 
-class main {
+public class mainLambdaKot {
 
     public static void main(String[] args) {
         Cat myCat = new Cat();
@@ -25,7 +25,7 @@ class main {
         s.set(entity, "Мурзик", 13);
     }
 
-    private static <T extends WithNameAndAge> void setMale(T cot,Polovoi p) {
+    private static <T extends WithNameAndAge> void setMale(T cot,Polovoi<T> p) {
         cot.setPol(p.setMale(cot));
     }
 }

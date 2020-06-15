@@ -1,4 +1,4 @@
-package LyambdaKot;
+package LambdaKot;
 
 @FunctionalInterface
 interface Settable<C extends WithNameAndAge> {

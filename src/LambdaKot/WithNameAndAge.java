@@ -1,4 +1,4 @@
-package LyambdaKot;
+package LambdaKot;
 
 interface WithNameAndAge {
     void setName(String name);

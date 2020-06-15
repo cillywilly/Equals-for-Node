@@ -1,4 +1,4 @@
-package LyambdaKot;
+package LambdaKot;
 
 class Cat implements WithNameAndAge {
 

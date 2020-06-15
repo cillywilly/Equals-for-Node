@@ -1,4 +1,4 @@
-package LyambdaKot;
+package LambdaKot;
 
 @FunctionalInterface
 interface Polovoi <C extends WithNameAndAge>{

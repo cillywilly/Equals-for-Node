@@ -8,22 +8,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
-class main {
+class mainCodeWarsTasks {
 
     public static void main(String[] args) {
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
     public static boolean scramble(String str1, String str2) {
         return true;
